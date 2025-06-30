@@ -1,70 +1,109 @@
-# Getting Started with Create React App
+# TextUtils 
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+TextUtils is a powerful and lightweight text manipulation web app built using React.js. It offers multiple utilities to enhance productivity when working with text, such as converting to uppercase/lowercase, reversing text, removing extra spaces, and more — all inside a modern, theme-switchable interface.
 
-## Available Scripts
+## Live Demo
 
-In the project directory, you can run:
+Visit: [yb-textutils.netlify.app](https://yb-textutils.netlify.app/)
 
-### `npm start`
+## Features
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+* Convert text to Uppercase / Lowercase
+* Clear input text
+* Reverse the sentence
+* Copy text to clipboard
+* Remove extra white spaces
+* Real-time word & character count
+* Estimated reading time
+* Dark/Light mode toggle
+* React Router support 
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Preview
+<table>
+  <tr>
+    <td align="center">
+      <img src="https://github.com/Yash-Bandal/TextUtils-React/blob/59731180736e910fc5884fee86df53d3f7a93db6/public/WebView.PNG?raw=true"/>
+      <br>
+      <b>YB-Productions</b>
+    </td>
+  </tr>
+</table>
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Tech Stack
 
-### `npm run build`
+* React.js
+* React Router DOM
+* JavaScript
+* CSS
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Installation & Running Locally
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+```bash
+git clone https://github.com/Yash-Bandal/TextUtils-React.git
+```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+```bash
+cd TextUtils
+```
 
-### `npm run eject`
+```bash
+npm install
+```
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+```bash
+npm start
+```
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Then visit `http://localhost:3000` in your browser.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## Project Structure
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+```
+├── TextUtils/
+│   ├── .gitignore
+│   ├── module1.mjs
+│   ├── module2.mjs
+│   ├── package.json
+│   ├── README.md
+│   ├── public/
+│   │   ├── index.html
+│   │   ├── manifest.json
+│   │   └── _redirects          # Optional: for Netlify routing
+│   └── src/
+│       ├── App.js
+│       ├── App.css
+│       ├── index.js
+│       ├── index.css
+│       ├── setupTests.js
+│       ├── reportWebVitals.js
+│       └── components/
+│           ├── About.js
+│           ├── Alert.js
+│           ├── Navbar.js
+│           └── TextForm.js
+```
 
-## Learn More
+## Deployment
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Deployed using Netlify.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+For routing to work properly on Netlify, a `_redirects` file is added to the `public/` folder with the following line:
 
-### Code Splitting
+```
+/*    /index.html   200
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-### Analyzing the Bundle Size
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+##  License
 
-### Making a Progressive Web App
+This project is open source under the [MIT License](LICENSE).
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+## Author
 
-### Advanced Configuration
+Yash Bandal [@Yash-Bandal](https://github.com/Yash-Bandal)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+<br>
 
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## A YB Productions original. 💝
