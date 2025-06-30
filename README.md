@@ -6,18 +6,6 @@ TextUtils is a powerful and lightweight text manipulation web app built using Re
 
 Visit: [yb-textutils.netlify.app](https://yb-textutils.netlify.app/)
 
-## Features
-
-* Convert text to Uppercase / Lowercase
-* Clear input text
-* Reverse the sentence
-* Copy text to clipboard
-* Remove extra white spaces
-* Real-time word & character count
-* Estimated reading time
-* Dark/Light mode toggle
-* React Router support 
-
 ## Preview
 <table>
   <tr>
@@ -30,6 +18,20 @@ Visit: [yb-textutils.netlify.app](https://yb-textutils.netlify.app/)
 </table>
 
 
+## Features
+
+* Convert text to Uppercase / Lowercase
+* Clear input text
+* Reverse the sentence
+* Copy text to clipboard
+* Remove extra white spaces
+* Real-time word & character count
+* Estimated reading time
+* Dark/Light mode toggle
+* React Router support 
+
+
+
 ## Tech Stack
 
 * React.js
@@ -37,7 +39,7 @@ Visit: [yb-textutils.netlify.app](https://yb-textutils.netlify.app/)
 * JavaScript
 * CSS
 
-## Installation & Running Locally
+## Getting Started
 
 ```bash
 git clone https://github.com/Yash-Bandal/TextUtils-React.git
@@ -83,6 +85,8 @@ Then visit `http://localhost:3000` in your browser.
 │           ├── Navbar.js
 │           └── TextForm.js
 ```
+
+
 
 ## Deployment
 
