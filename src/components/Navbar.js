@@ -9,10 +9,19 @@
       <nav className="navbar navbar-expand-lg" style={{ backgroundColor: props.mode === 'dark' ? '#010409' : 'white', color: props.mode === 'dark' ? ' white' : 'black', transition: 'background-color 0.3s ease, color 0.3s ease' }} >
       {/* <nav className="navbar navbar-expand-lg navbar-dark bg-dark"> */}
         <div className="container-fluid">
-          <a className="navbar-brand" href="/" style={{ color: props.mode === 'dark' ? '#f0f6fc' : '#212529', transition: 'background-color 0.3s ease, color 0.3s ease' }}>
+          
+          <Link 
+            className="navbar-brand" 
+            to="/" 
+            style={{ 
+              color: props.mode === 'dark' ? '#f0f6fc' : '#212529', 
+              transition: 'background-color 0.3s ease, color 0.3s ease' 
+            }}
+          >
             {props.title}
-            {/* {title} */}
-          </a>
+          </Link>
+
+            
           <button
             className="navbar-toggler"
             type="button"
@@ -26,17 +35,34 @@
           </button>
           <div className="collapse navbar-collapse" id="navbarSupportedContent">
             <ul className="navbar-nav me-auto mb-2 mb-lg-0">
-              <li className="nav-item">
-                <a className="nav-link active" aria-current="page" href="/" style={{ color: props.mode === 'dark' ? '#f0f6fc' : '#212529', transition: 'background-color 0.3s ease, color 0.3s ease' }}>
-                  Home
-                </a>
-              </li>
-              <li className="nav-item">
-                <a className="nav-link" href="/about" style={{ color: props.mode === 'dark' ? '#f0f6fc' : '#212529', transition: 'background-color 0.3s ease, color 0.3s ease' }}>
-                  {props.aboutText}
-                  {/* {aboutText} */}
-                </a>
-              </li>
+
+                <li className="nav-item">
+                  <Link 
+                    className="nav-link active" 
+                    aria-current="page" 
+                    to="/" 
+                    style={{ 
+                      color: props.mode === 'dark' ? '#f0f6fc' : '#212529', 
+                      transition: 'background-color 0.3s ease, color 0.3s ease' 
+                    }}
+                  >
+                    Home
+                  </Link>
+                </li>
+                
+                <li className="nav-item">
+                  <Link 
+                    className="nav-link" 
+                    to="/about" 
+                    style={{ 
+                      color: props.mode === 'dark' ? '#f0f6fc' : '#212529', 
+                      transition: 'background-color 0.3s ease, color 0.3s ease' 
+                    }}
+                  >
+                    {props.aboutText}
+                  </Link>
+                </li>
+
              
             </ul>
             
